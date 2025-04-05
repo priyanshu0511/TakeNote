@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* @theme {
+    --color-darkblack: "#000814";
+    --color-darkblue: "#001d3d";
+    --color-midblue: "#003566";
+    --color-lightblue: "#90e0ef";
+    --color-whiteblue: "#caf0f8";
+  } */
+
+  @theme {
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --color-darkblack: #000814;
+    --color-darkblue: #001d3d;
+    --color-midblue: #003566;
+    --color-lightblue: #90e0ef;
+    --color-whiteblue: #caf0f8;
+  }
+
+  
