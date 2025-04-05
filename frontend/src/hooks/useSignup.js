@@ -13,7 +13,7 @@ export const useSignup = () =>{
 
         console.log("Sending signup request with:", { name, email, password });
 
-        const response = await fetch('http://localhost:5000/api/user/signup',{
+        const response = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/user/signup`,{
             method: 'POST',
             headers: {'Content-type':'application/json'},
             body: JSON.stringify({name,email,password})

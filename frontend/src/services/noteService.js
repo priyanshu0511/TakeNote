@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/notes";
+const API_URL = `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/notes`;
 
 // Fetch all notes-
 export const getAllNotes = async (user) => {
