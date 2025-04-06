@@ -64,7 +64,7 @@ or http://localhost:5000 (For Testing)
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/takenote.git
+git clone https://github.com/priyanshu0511/TakeNote.git
 cd takenote
 ```
 ### 2. Start the backend
