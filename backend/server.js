@@ -8,9 +8,15 @@ require("dotenv").config();
 const app= new express();
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: 'https://take-note-isrj.vercel.app',
     credentials: true
   }));
+  
+  app.options('*', cors({
+    origin: 'https://take-note-isrj.vercel.app',
+    credentials: true
+  }));
+  
 app.use(express.json())
 
 app.get('/',(req,res)=>{
